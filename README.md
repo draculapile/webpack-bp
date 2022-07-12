@@ -45,25 +45,25 @@ ls -s dir1/node_modules dir2/node_modules
     - [代码分割 Code Splitting](./advanced-optimization/README.md#代码分割-code-splitting)
       - [动态引入 Dynamic Imports](./advanced-optimization/README.md#动态引入-dynamic-imports)
       - [splitChunks](./advanced-optimization/README.md#splitchunks)
-        - [`reuseExistingChunk`]
-        - [`maxAsyncRequests` 和 `maxInitialRequests`]
-        - [样式文件分包]
-        - [最佳实践]
+        - `reuseExistingChunk`
+        - `maxAsyncRequests` 和 `maxInitialRequests`
+        - 样式文件分包
+        - 最佳实践
     - [Scope Hoisting](./advanced-optimization/README.md#scope-hoisting)
       - [注意事项](./advanced-optimization/README.md#注意事项)
     - [Tree Shaking](./advanced-optimization/README.md#tree-shaking)
       - [标记 `unused` 导出](./advanced-optimization/README.md#标记-unused-导出)
-        - [结合 `optimization.minimize` 配置项]
-        - [一些标记失效场景]
-          - [场景一：导出的对象内部属性]
-          - [场景二：保留对模块内变量的引用]
-          - [场景三：`Class` 内未使用的方法]
-        - [标记失效 `!==` 无法 Tree Shaking]
+        - 结合 `optimization.minimize` 配置项
+        - 一些标记失效场景
+          - 场景一：导出的对象内部属性
+          - 场景二：保留对模块内变量的引用
+          - 场景三：`Class` 内未使用的方法
+        - 标记失效 `!==` 无法 Tree Shaking
       - [`sideEffects`：整体移除文件和模块](./advanced-optimization/README.md#sideeffects整体移除文件和模块)
-        - [`optimization.sideEffects`]
-          - [reexport 优化]
-          - [with CSS]
-        - [`/*#__PURE__*/` 注释]
+        - `optimization.sideEffects`
+          - reexport 优化
+          - with CSS
+        - `/*#__PURE__*/` 注释
       - [CSS 的 minify](./advanced-optimization/README.md#css-的-minify)
       - [With Babel](./advanced-optimization/README.md#with-babel)
       - [CommonJS 的 Tree Shaking](./advanced-optimization/README.md#commonjs-的-tree-shaking)
