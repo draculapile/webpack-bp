@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    [
+      "transform-runtime",
+      {
+        // "helpers": true
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "Chrome >= 35",
+            "ie >= 9",
+            "last 5 Safari versions",
+            "ff >= 40"
+          ]
+        },
+        "useBuiltIns": true
+      }
+    ]
+  ]
+}

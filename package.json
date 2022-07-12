@@ -1,0 +1,22 @@
+{
+  "name": "webpack-bp",
+  "version": "1.0.0",
+  "description": "webpack 5.x better practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draculapile/webpack-bp.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "draculapile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/draculapile/webpack-bp/issues"
+  },
+  "homepage": "https://github.com/draculapile/webpack-bp#readme"
+}
